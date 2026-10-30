@@ -245,8 +245,8 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
         .titulo-sexto.mb-4
-          h5 Tabla 17.
-          | Tipos de alianzas y sus aportes
+          h5 Tabla 1.
+          | Comparación de los enfoques para cálculo de caudal ambiental
         .tabla-a.tab1.mb-0
           table
             thead
@@ -765,7 +765,7 @@
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
                 texto="¿Qué experiencias existen en otros países?"
-                :audio="require_src('@/assets/actividad/audio/Podcast_CF2_42110173_Gestion_de_marca_territorial_bajo_el_enfoque_ovop_Colombia.mp3')"
+                :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
               ).mb-0
                 p.mb-0 
 

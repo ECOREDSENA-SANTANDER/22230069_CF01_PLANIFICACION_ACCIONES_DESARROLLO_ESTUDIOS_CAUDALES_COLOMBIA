@@ -307,6 +307,8 @@ figcaption
 .slyder-f__btn i 
   font-size: 4rem
   color: #F1B616
+.b2
+  background-color: #DEF2FB
 
 .bg12
   background-color: #BBFFEF
@@ -336,29 +338,102 @@ figcaption
 .tarjeta.color-secundario * 
   color: #000
 
+.acordion__accion__btn--b
+  background-color: #F1B616
+  transition: all 0.3s ease-out
+  border:#F1B616
+  color: black
+.acordion__activo
+  background-color: #BBFFEF !important
+  transition: all 0.3s ease-out
+  h3
+    color: black !important
+.tarjeta--grey
+  border-radius: 20px
+  background-color: #33281D
+  h3
+    color: white
+.acordion.press .acordion__activo .acordion__accion__btn--b
+  background-color:#F1B616
+  color:black
 
+.color-acento-botones
+  .tabs-a__tab
+    padding: 12px 13px
+    font-size: 16px  
+    white-space: normal 
+    line-height: 1.4
+    min-height: 40px 
+  @media (min-width: 1200px) 
+    .col-xl-3
+      flex: 0 0 auto
+      width: 35%
+    .col-xl-9
+      flex: 0 0 auto
+      width: 65%
+.tabs-a__tab:last-child 
+  margin-bottom: 0 !important
+  background-color: #5DBFEB
+  color: black //para hover deja texto como se pide en activo
+.color-a
+  background-color: #DEF2FB
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #F1B616!important
+  color: black !important
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+  background-color:  #F1B616!important
 
+.fd2
+  background: url('../assets/curso/tema2/fd2.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2rem
+    background-size: 100% 100%
 
+.fd3
+  background: url('../assets/curso/tema2/fd3.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2rem
+    background-size: 100% 100%
 
+.lista-ol--cuadro__vineta 
+  background-color: #F0B068
+  color: black
 
+.tarjeta--gris
+  background-color: #9BBCCB
+.linea-tiempo-d
+  .tarjeta
+    border-radius: 5px
+  &.color-secundario
+    .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+      background-color: #F5F1C1
+    &.activo
+      .linea-tiempo-d__item__number
+        background-color: #9BBCCB
+      .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+        background-color: #F1B616
+        color: black !important
+  @media (max-width: 767px)
+    .tarjeta
+      padding: 0.5rem
+  @media (min-width: 768px) and (max-width: 1439px)
+    &.color-acento-boton .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+      padding: 0.5rem
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bloque-texto-g.color-t
+  background-color: #BBFFEF
 
 
 //////////////////////////////////////TABLAS////////////////////////////////////
@@ -401,3 +476,22 @@ figcaption
       width: 16%
     th:nth-child(5)
       width: 28%
+
+  &.tab5
+    tbody td:first-child
+      font-weight: normal
+
+
+  &.tab3
+    thead 
+      border-top: none
+      background-color: #D5A77A
+    th, td
+      border: none
+      vertical-align: middle
+    tbody td:first-child
+      border-right: 2.9px solid #AFAFAF
+    th:nth-child(1)
+      width: 40%
+    th:nth-child(2)
+      width: 60%
