@@ -36,27 +36,29 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Caudal ambiental',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: '¿Qué es el caudal ambiental?',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Subtema 1',
+            titulo: '¿Cómo se estima el caudal ambiental?',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Subtema 1',
+            titulo:
+              'Requisitos técnicos y normativos para la estimación del caudal ambiental en Colombia',
             hash: 't_1_3',
           },
           {
             numero: '1.4',
-            titulo: 'Subtema 1',
+            titulo:
+              'Medición del caudal ambiental y estudios de referencia en Colombia y el mundo',
             hash: 't_1_4',
           },
         ],
@@ -64,28 +66,38 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Metodologías para el cálculo de caudal ambiental',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Subtema 1',
+            titulo:
+              'Clasificación y tipos de metodologías para el cálculo del caudal ambiental',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Subtema 1',
+            titulo:
+              'Nivel de complejidad de las metodologías para la estimación del caudal ambiental',
             hash: 't_2_2',
           },
           {
             numero: '2.3',
-            titulo: 'Subtema 1',
+            titulo:
+              'Información requerida para la estimación del caudal ambiental',
             hash: 't_2_3',
           },
           {
             numero: '2.4',
-            titulo: 'Subtema 1',
+            titulo:
+              'Casos de aplicación de metodologías para la estimación del caudal ambiental',
             hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo:
+              'Análisis del caso: selección de la metodología para estimar el caudal ambiental',
+            hash: 't_2_5',
           },
         ],
       },

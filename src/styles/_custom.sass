@@ -39,9 +39,9 @@
   margin-bottom: 2% !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
-.titulo-principal.color-acento-contenido .titulo-principal__numero 
-  background-color: #345A52
+  color: black !important   
+//.titulo-principal.color-acento-contenido .titulo-principal__numero 
+  background-color: #D5A77A
 
 figcaption
   font-weight: normal
@@ -70,12 +70,12 @@ figcaption
   background-image: url("../assets/curso/portada/portada.png") !important
 
 .barra-avance__boton--regresar span 
-    color: white!important
+    color: black!important
 
 .titulo-sexto
   border-left: 10px solid
   padding: 6px 0 6px 8px
-  border-left-color: #97C364 !important
+  border-left-color: #D5A77A !important
 
 .titulo-segundo:after 
   content: ''
@@ -83,7 +83,7 @@ figcaption
   height: 4.5px
   width: 140px
   border-left: solid 50px
-  border-left-color: #97C364
+  border-left-color: #D5A77A
   background-color: #DBDADA
 
 .cen
@@ -98,3 +98,276 @@ figcaption
 .img-a
   display: block
   margin: auto
+
+
+.bg1
+  background-color: #E5EEF2
+  min-height: 318.24px
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+
+.bg2
+  background-color: #7A3709
+  width: fit-content
+
+.sub
+  background-image: url("../assets/curso/tema1/ti.png")!important
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  width: fit-content
+.mi
+  margin-left: 5px
+
+.bg4
+  background-color: #5DBFEB!important
+  border-radius: 20px
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease
+  &:hover
+    background-color: #BBFFEF !important
+    transform: translateY(-5px)
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15)
+  .caja-img
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 100px
+    img
+      width: auto
+      max-width: 100%
+      max-height: 100%
+
+.cajon.color-acento-botones
+  background-color: #F5F1C1
+  &:before 
+    background-color:#F1B616
+
+.bg3
+  background-color: #E5EEF2
+  min-height: 360.31px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+
+.mt-p
+  margin-top: 36.32px
+  @media only screen and (max-width: 1023px)
+    margin-top: auto
+
+.pol
+  --punta: 20px
+  clip-path: polygon(0 0, calc(100% - var(--punta)) 0, 100% 50%, calc(100% - var(--punta)) 100%, 0 100%, var(--punta) 50%)
+  @media (max-width: 767px)
+    --punta: 14px
+  &--fin
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, var(--punta) 50%)
+.bg5
+  background: #07597D
+.bg6
+  background: #9BBCCB
+
+.acordion__accion__btn--a
+  background-color: #F1B616
+  box-shadow: 0px 0px 7px 2px rgba(0,0,0,.3)
+.acordion .tarjeta--azull
+  background-color: #33281D
+  h3
+    color: white
+.acordion__accion__btn--a i, .acordion__accion__btn--b i .activ
+  color: black
+.acordion.activ .acordion__activo .acordion__accion__btn--a
+  background-color: #F1B616
+  i
+    color: black !important
+.activ
+  .acordion__activo 
+    background-color: #BBFFEF !important
+    transition: all 0.3s ease-out
+    h3
+      color: black 
+
+.fa-drop
+  content: url('../assets/curso/tema1/i1.svg')
+  width: 1.2em  
+  height: 1.2em 
+  top: 0px !important
+
+.bloque-texto-g.color-secundario 
+  background-color: #9BBCCB
+
+.i2
+  content: url('../assets/curso/tema1/i2.svg')
+  width: 1.2em  
+  height: 1.2em 
+  top: 0px !important
+
+.sub1
+  display: flex
+  align-items: center
+  gap: 8px
+  position: relative
+  width: fit-content
+  max-width: 100%
+  i
+    color: #00DBC4
+    font-size: 0.7rem
+  &::after
+    content: ''
+    position: absolute
+    inset: auto 0 0
+    height: 6px
+    border-radius: 100px
+    background-color: #5DBFEB
+
+.bg7
+  background: #E5EEF2
+
+.bg8
+  background-color: #DEF2FB
+  min-height: 360.31px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+
+@media only screen and (min-width: 1024px)
+  .p-5.fon
+    padding: 2.6rem !important
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+  .p-5.fon
+    padding: 2.2rem !important
+@media only screen and (max-width: 767px)
+  .p-5.fon
+    padding: 1.2rem !important
+.fd1
+  background: url('../assets/curso/tema1/fd1.png')
+  background-size: 100% 84%
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2rem
+    background-size: 100% 100%
+
+.bg9
+  background-color: #DEF2FB
+
+.tarjetaf
+  background-color: #E5EEF2
+  border-radius: 20px
+  overflow: hidden
+  transition: transform 0.3s ease
+  //h4, p
+    color: white
+.slyder-a__bullets__item
+  background-color: #9BBCCB
+  border-color: #9BBCCB
+  &--active
+    background-color: #F1B616 !important
+    border-color: #F1B616 !important
+.slyder-a__tipo-b
+  .slyder-a__btn--sigt,
+  .slyder-a__btn--atrs
+    background-color: #F1B616
+
+.bg10
+  background-color: #FBF6F1
+
+.bg11
+  background-color: #C5EDF4
+  min-height: 332.98px
+  @media only screen and (max-width: 1023px)
+    min-height: auto
+  @media only screen and (min-width: 1024px) 
+    margin-left: -7.9rem
+
+.tarjeta--slyder.b1
+  background: url('../assets/curso/tema1/fd2.png')
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  border-radius: 20px
+  transition: all 0.3s ease
+  cursor: pointer
+.slyder-f__btn i 
+  font-size: 4rem
+  color: #F1B616
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////////////////TABLAS////////////////////////////////////
+  
+.bgr
+  background-color: #F6F6F6
+.bgw
+  background-color: white
+.tabla-a th
+  border-color: #FBF6F1
+.tabla-a
+  thead 
+    border-top: 6px solid #D5A77A
+    color: black
+    background-color: #FBF6F1
+  table
+    width: 100%
+    table-layout: auto
+  th, td
+    overflow-wrap: break-word
+    white-space: normal
+    vertical-align: top
+    text-align: left
+  th
+    padding: 16px 12px
+    text-align: left
+  td 
+    padding: 15px 12px
+  tbody td:first-child
+    font-weight: bold
+
+  &.tab1
+    th:nth-child(1)
+      width: 12%
+    th:nth-child(2)
+      width: 28%
+    th:nth-child(3)
+      width: 16%
+    th:nth-child(4)
+      width: 16%
+    th:nth-child(5)
+      width: 28%
