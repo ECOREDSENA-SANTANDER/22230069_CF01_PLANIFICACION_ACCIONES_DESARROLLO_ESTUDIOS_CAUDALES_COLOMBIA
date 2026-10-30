@@ -495,91 +495,279 @@
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
         SlyderF(columnas="col-md-6 col-xl-4")
-          .tarjeta.tarjeta--slyder.b1.p-lg-5.p-4
+          .tarjeta.tarjeta--slyder.b1.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(src='@/assets/curso/tema1/30.svg')
             h4.text-center.mb-4 Información hidrológica
             p.mb-0.text-center Registros históricos de caudales, precipitación, evapotranspiración, curvas de duración y balance hídrico.
-          .tarjeta.tarjeta--slyder.b1.p-lg-5.p-4
+          .tarjeta.tarjeta--slyder.b1.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(src='@/assets/curso/tema1/31.svg')
             h4.text-center.mb-4 Información hidráulica
             p.mb-0.text-center Geometría del cauce, secciones transversales, velocidades, profundidades y rugosidad.
-          .tarjeta.tarjeta--slyder.b1.p-lg-5.p-4
+          .tarjeta.tarjeta--slyder.b1.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(src='@/assets/curso/tema1/32.svg')
             h4.text-center.mb-4 Información geomorfológica
             p.mb-0.text-center Transporte de sedimentos, estabilidad del cauce, dinámica fluvial y conectividad.
-          .tarjeta.tarjeta--slyder.b1.p-lg-5.p-4
+          .tarjeta.tarjeta--slyder.b1.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(src='@/assets/curso/tema1/33.svg')
             h4.text-center.mb-4 Información ecológica
             p.mb-0.text-center Peces, macroinvertebrados, vegetación ribereña, hábitats y especies prioritarias.
-          .tarjeta.tarjeta--slyder.b1.p-lg-5.p-4
+          .tarjeta.tarjeta--slyder.b1.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(src='@/assets/curso/tema1/34.svg')
             h4.text-center.mb-4 Información fisicoquímica
             p.mb-0.text-center Temperatura, oxígeno disuelto, conductividad, pH, sólidos suspendidos y nutrientes.
-          .tarjeta.tarjeta--slyder.b1.p-lg-5.p-4
+          .tarjeta.tarjeta--slyder.b1.p-4
             .row.justify-content-center.align-items-center.mb-4.mt-3
               .col-12
                 img.img-a.img-t(src='@/assets/curso/tema1/35.svg')
             h4.text-center.mb-4 Información socioeconómica
-            p.mb-0.text-center Usos del agua, comunidades, actividades productivas y servicios ecosistémicos.
+            p.mb-3.text-center Usos del agua, comunidades, actividades productivas y servicios ecosistémicos.
 
+    p.mb-0 La integración de esta información permite construir una visión amplia del sistema y proporciona elementos técnicos para definir un régimen de caudal ambiental acorde con las condiciones del territorio.
 
 
     separador
     #t_1_4.titulo-segundo.mb-5
       h2 1.4 Medición del caudal ambiental y estudios de referencia en Colombia y el mundo
 
-
-
-
-
-
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        img.img-t.mb-4(src='@/assets/curso/tema1/36.svg')
+        p.mb-0.mt-p1 Para determinar un régimen de caudal ambiental es necesario conocer cómo se comporta el agua en el cauce y cómo sus variaciones se relacionan con el funcionamiento del ecosistema. Por esta razón, la medición del caudal constituye una actividad fundamental dentro de los estudios ambientales, ya que permite obtener información sobre el comportamiento del flujo y analizar las condiciones necesarias para conservar los ecosistemas acuáticos.
+      .col-lg-4
+        img(src='@/assets/curso/tema1/37.svg')
+      .col-lg-4
+        .bg33.p-4
+          p.mb-0 Medir el caudal ambiental no significa únicamente determinar cuánta agua circula por un río. También implica caracterizar su régimen natural y reconocer cómo cambian sus caudales en diferentes momentos. Para ello, se consideran aspectos como la #[b magnitud, frecuencia, duración, oportunidad y tasa de cambio] del flujo, debido a su relación con procesos ecológicos como el transporte de sedimentos, la conectividad de los hábitats y la dinámica de las comunidades acuáticas.
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7
+        .bg12.p-lg-5.p-4
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-3
+              img(src='@/assets/curso/tema1/38.svg')
+            .col-lg-9
+              .bg2.p-1.mb-4
+                h4.text-white.mb-0.ps-2.pe-2 ¿Qué información se obtiene al medir el caudal?
+              p.mb-0 La medición del caudal permite recopilar información necesaria para caracterizar el régimen de flujo, identificar posibles alteraciones hidrológicas y analizar diferentes escenarios de manejo del recurso hídrico.
+      .col-lg-5
+        p.mb-4 Durante un estudio pueden desarrollarse actividades como:
+        ul.lista-ul.mb-0.mt-lg-4
+          li.d-flex.mb-1
+            i.fas.fa-drop.i2
+            p.mb-0 Levantamiento de información hidrológica e hidráulica.
+          li.d-flex.mb-1
+            i.fas.fa-drop.i2
+            p.mb-0 Realización de aforos y medición de velocidades del flujo.
+          li.d-flex.mb-1
+            i.fas.fa-drop.i2
+            p.mb-0 Análisis de series históricas de caudales.
+          li.d-flex.mb-1
+            i.fas.fa-drop.i2
+            p.mb-0 Caracterización geomorfológica del cauce.
+          li.d-flex.mb-1
+            i.fas.fa-drop.i2
+            p.mb-0 Evaluación de variables fisicoquímicas del agua.
+          li.d-flex.mb-1
+            i.fas.fa-drop.i2
+            p.mb-0 Caracterización de los ecosistemas y comunidades biológicas.
+          li.d-flex.mb-1
+            i.fas.fa-drop.i2
+            p.mb-0 Modelación hidrológica e hidráulica.
+          li.d-flex.mb-0
+            i.fas.fa-drop.i2
+            p.mb-0 Evaluación de escenarios de alteración del régimen de caudales.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
         img(src='@/assets/curso/tema1/sub.svg')
       .col.ps-0
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
-          h3.mb-0 
+          h3.mb-0 ¿Cómo se mide el caudal?
 
-
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        p.mb-3 La selección del método de medición depende de las características del río, la precisión requerida, los equipos disponibles y las condiciones encontradas durante el trabajo de campo.
+        p.mb-3 Uno de los procedimientos tradicionales es el método área-velocidad, que permite calcular el caudal mediante la relación:
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-4.pe-lg-0
+            .bg13.p-4.cen
+              h4.mb-0 Q = A × V 
+          .col-lg-8.ps-lg-0
+            .bg14.p-4
+              p.mb-3 Donde:
+              p.mb-0 #[b Q:] caudal (m#[sup 3]/s).
+              p.mb-0 #[b A:] área transversal del cauce (m#[sup 2]).
+              p.mb-0 #[b V:] velocidad media del agua (m/s).
+        p.mb-0 Para aplicar este método, la sección transversal del cauce se divide en segmentos. En cada uno se determina el área y se mide la velocidad del agua. Posteriormente, se calculan los caudales parciales y se obtiene el caudal total.
+      .col-lg-6
+        img(src='@/assets/curso/tema1/39.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
         img(src='@/assets/curso/tema1/sub.svg')
       .col.ps-0
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
-          h3.mb-0 
+          h3.mb-0 ¿Qué instrumento se puede utilizar?
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-4
+        img.img-a.img-t(src='@/assets/curso/tema1/40.png')
+      .col-lg-8
+        p.mb-4 Uno de los instrumentos tradicionales es el #[b molinete hidrométrico,] cuya hélice gira de acuerdo con la velocidad del flujo. Es un equipo práctico y de amplia utilización, aunque puede presentar limitaciones en ríos muy profundos o durante crecientes.
+        p.mb-4 Otra alternativa es el #[b Perfilador Acústico Doppler (ADCP),] utilizado para realizar aforos de alta precisión. Este equipo emplea el efecto Doppler para determinar la velocidad del flujo a diferentes profundidades y permite obtener información del perfil de velocidades y del área transversal del cauce.
+        .bg7.p-4.mb-0.mt-lg-1
+          p.mb-0.mt-lg-3.mb-lg-3.mx-lg-2 También existen métodos más sencillos, como los #[b aforos mediante flotadores,] útiles principalmente para actividades educativas o estudios exploratorios, y métodos de #[b dilución de trazadores,] empleados especialmente en determinados ríos de montaña y condiciones de flujo turbulento o geometría irregular.
+      
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-auto.ps-2.pe-1.mi
+        img(src='@/assets/curso/tema1/sub.svg')
+      .col.ps-0
+        .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+          h3.mb-0 ¿De dónde provienen los datos hidrológicos?
 
-
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7
+        p.mb-3 Las estaciones hidrométricas constituyen una fuente fundamental para conocer el comportamiento del régimen de flujo. En Colombia, la red hidrológica nacional es operada principalmente por el IDEAM y permite registrar variables como nivel del río, caudal, precipitación, temperatura, sedimentos y calidad del agua.
+        p.mb-0 Los registros obtenidos durante periodos prolongados permiten construir series temporales que posteriormente pueden utilizarse para realizar análisis de frecuencia, construir curvas de duración, calcular indicadores hidrológicos, desarrollar modelos y apoyar la estimación del caudal ambiental.
+      .col-lg-5
+        img(src='@/assets/curso/tema1/41.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
         img(src='@/assets/curso/tema1/sub.svg')
       .col.ps-0
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
-          h3.mb-0 
+          h3.mb-0 ¿Por qué no basta con conocer el nivel del río?
 
+    .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
+      .col-lg-12
+        .bloque-texto-g.color-secundario.p-3.p-lg-5.p-md-4
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require_src('@/assets/curso/tema1/42.png')})`}"
+          )
+          .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
+            p.mb-0 Las estaciones hidrométricas normalmente registran el #[b nivel del agua.] Para convertir esta información en caudal se utilizan las #[b curvas de gasto], que relacionan el nivel del agua con el caudal correspondiente.
+            br 
+            br
+            p.mb-0 Estas curvas se construyen a partir de diferentes campañas de aforo realizadas bajo distintas condiciones hidrológicas. Su confiabilidad depende, entre otros aspectos, de la cantidad de aforos disponibles, la estabilidad del cauce y la representatividad de las condiciones hidrológicas.
 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-auto.ps-2.pe-1.mi
+        img(src='@/assets/curso/tema1/sub.svg')
+      .col.ps-0
+        .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+          h3.mb-0 ¿Cómo se analiza la disponibilidad del caudal?
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        p.mb-3 Una herramienta utilizada para analizar el comportamiento de los caudales son las #[b curvas de duración del caudal.] Estas representan el porcentaje del tiempo durante el cual un determinado caudal es igualado o superado.
+        p.mb-4 Por ejemplo:
+        ul.lista-ul.mb-4
+          li.d-flex.mb-2
+            i.fas.fa-drop.i2
+            p.mb-0 #[b Q95:] caudal que es igualado o superado durante el 95 % del tiempo.
+          li.d-flex.mb-0
+            i.fas.fa-drop.i2
+            p.mb-0 #[b Q90:] caudal que es igualado o superado durante el 90 % del tiempo.
+        p.mb-0 Estos indicadores han sido utilizados como aproximaciones al caudal ecológico. Sin embargo, no permiten por sí solos representar toda la complejidad del régimen natural de flujo, por lo que deben interpretarse dentro de un análisis más amplio.
+      .col-lg-6
+        img(src='@/assets/curso/tema1/43.png')
 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-auto.ps-2.pe-1.mi
+        img(src='@/assets/curso/tema1/sub.svg')
+      .col.ps-0
+        .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+          h3.mb-0 ¿Qué ocurre cuando no existen suficientes registros?
+    
+    p.mb-4 En algunos territorios no se dispone de series históricas suficientes para caracterizar directamente el comportamiento del río. En estos casos, pueden utilizarse modelos hidrológicos para simular diferentes procesos y escenarios.
+    
+    p.mb-4 Entre las herramientas mencionadas en los estudios se encuentran:
 
+    .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-right")
+      .col-lg-3.col-md-6.mb-lg-0.mb-4
+        .h-100.bg4.p-4
+          .caja-img.mb-4
+            img(src='@/assets/curso/tema1/3.svg')
+          h4.mb-4.text-center HEC-HMS
+          p.mb-0 Permite simular procesos de lluvia-escorrentía y apoyar la estimación de caudales, crecientes y balances hídricos.
+      .col-lg-3.col-md-6.mb-lg-0.mb-4
+        .h-100.bg4.p-4
+          .caja-img.mb-4
+            img(src='@/assets/curso/tema1/3.svg')
+          h4.mb-4.text-center SWAT
+          p.mb-0 Permite analizar aspectos relacionados con hidrología, uso del suelo, erosión, sedimentos y calidad del agua.
+      .col-lg-3.col-md-6.mb-lg-0.mb-4
+        .h-100.bg4.p-4
+          .caja-img.mb-4
+            img(src='@/assets/curso/tema1/3.svg')
+          h4.mb-4.text-center WEAP
+          p.mb-0 Permite analizar la oferta y demanda hídrica, escenarios futuros y asignación del recurso. 
+      .col-lg-3.col-md-6.mb-lg-0.mb-4
+        .h-100.bg4.p-4
+          .caja-img.mb-4
+            img(src='@/assets/curso/tema1/3.svg')
+          h4.mb-4.text-center HEC-RAS
+          p.mb-0 Se emplea principalmente para modelación hidráulica y permite analizar variables como profundidades, velocidades, inundaciones, hábitat hidráulico y transporte de sedimentos.
 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-auto.ps-2.pe-1.mi
+        img(src='@/assets/curso/tema1/sub.svg')
+      .col.ps-0
+        .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
+          h3.mb-0 ¿Cómo se identifica una alteración del régimen de flujo?
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6
+        p.mb-4 Para analizar los cambios producidos en el régimen natural de un río pueden utilizarse #[b indicadores hidrológicos.] Entre ellos se encuentran los #[em Indicators of Hydrologic Alteration] (IHA), que permiten analizar cinco componentes principales:
+        .row.justify-content-center.align-items.mb-4
+          .col-lg-4
+            ul.lista-ul.mb-0
+              li.d-flex.mb-3
+                i.fas.fa-drop.i2
+                p.mb-0 #[b Magnitud.] 
+              li.d-flex.mb-3
+                i.fas.fa-drop.i2
+                p.mb-0 #[b Frecuencia.] 
+              li.d-flex.mb-0
+                i.fas.fa-drop.i2
+                p.mb-0 #[b Duración.] 
+          .col-lg-8
+            ul.lista-ul.mb-0
+              li.d-flex.mb-3
+                i.fas.fa-drop.i2
+                p.mb-0 #[b Oportunidad.] 
+              li.d-flex.mb-0
+                i.fas.fa-drop.i2
+                p.mb-0 #[b Tasa de cambio.] 
+        p.mb-0 Estos indicadores permiten comparar las condiciones naturales y alteradas del régimen de flujo y analizar el grado de modificación asociado a las actividades humanas.
+      .col-lg-6
+        img(src='@/assets/curso/tema1/44.png')
+    
+    p.mb-5 Explore el pódcast ¿Qué experiencias existen en otros países? y conozca los avances internacionales en la gestión del caudal ambiental.
 
-
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-12
+        img(src='@/assets/curso/tema1/45.svg')
+        .row.justify-content-center.g-0
+          .col-lg-12
+            .tarjeta.color-primario.p-4.rounded-0.h-100
+              .tarjeta.bg-white.p-4.p-lg-5.h-100
+                TarjetaAudio.color-acento-botones.mb-0(
+                texto="¿Qué experiencias existen en otros países?"
+                :audio="require_src('@/assets/actividad/audio/Podcast_CF2_42110173_Gestion_de_marca_territorial_bajo_el_enfoque_ovop_Colombia.mp3')"
+              ).mb-0
+                p.mb-0 
 
       
 </template>
