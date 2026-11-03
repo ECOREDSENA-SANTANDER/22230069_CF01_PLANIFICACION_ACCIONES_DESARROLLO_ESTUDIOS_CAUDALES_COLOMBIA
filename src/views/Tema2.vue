@@ -7,34 +7,34 @@
         span 2
       h1 Metodologías para el cálculo de caudal ambiental
 
-    p.mb-5 En este capítulo se presentan las principales metodologías empleadas a nivel nacional e internacional para el cálculo del caudal ambiental, clasificadas de acuerdo con sus fundamentos técnicos, los requerimientos de información y el nivel de complejidad asociado con su aplicación.
+    p.mb-5(data-aos="fade-right") En este capítulo se presentan las principales metodologías empleadas a nivel nacional e internacional para el cálculo del caudal ambiental, clasificadas de acuerdo con sus fundamentos técnicos, los requerimientos de información y el nivel de complejidad asociado con su aplicación.
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/1.png')
       .col-lg-7
         .row.justify-content-center.align-items.mb-2
           .col-lg-2
-            img.img-t(src='@/assets/curso/tema1/8.svg')
+            img.img-t.d-none.d-lg-block(src='@/assets/curso/tema1/8.svg')
           .col-lg-10.ps-lg-0
             p.mb-0 La determinación del caudal ambiental constituye uno de los principales desafíos técnicos de la gestión integrada del recurso hídrico. A diferencia de otros parámetros hidrológicos, no existe un valor único y universal que permita garantizar la conservación de todos los ecosistemas acuáticos, debido a que cada río presenta condiciones hidrológicas, geomorfológicas, ecológicas y socioeconómicas particulares.
         p.mb-0 Durante las últimas cinco décadas se han desarrollado más de doscientas metodologías para estimar el caudal ambiental, las cuales difieren en sus fundamentos conceptuales, requerimientos de información, complejidad técnica, costos y nivel de precisión. Estas metodologías han evolucionado desde enfoques basados principalmente en registros y estadísticas hidrológicas hasta aproximaciones holísticas que integran procesos físicos, biológicos y sociales. Esta evolución ha permitido avanzar hacia la definición de regímenes ambientales de flujo que respondan a objetivos específicos de conservación y desarrollo sostenible (King et al., 1999; Acreman et al., 2014).
 
-    p.mb-0 En Colombia, la metodología desarrollada por el Ministerio de Ambiente y Desarrollo Sostenible y el IDEAM adopta un enfoque jerárquico que permite seleccionar y combinar diferentes métodos de acuerdo con la disponibilidad de información y el nivel de complejidad del sistema fluvial. En este sentido, la selección de una metodología no depende exclusivamente de criterios técnicos, sino también del objetivo del estudio, la escala espacial, el grado de intervención del río, las características del ecosistema y los recursos disponibles para su ejecución.
+    p.mb-0(data-aos="fade-right") En Colombia, la metodología desarrollada por el Ministerio de Ambiente y Desarrollo Sostenible y el IDEAM adopta un enfoque jerárquico que permite seleccionar y combinar diferentes métodos de acuerdo con la disponibilidad de información y el nivel de complejidad del sistema fluvial. En este sentido, la selección de una metodología no depende exclusivamente de criterios técnicos, sino también del objetivo del estudio, la escala espacial, el grado de intervención del río, las características del ecosistema y los recursos disponibles para su ejecución.
 
 
     separador
     #t_2_1.titulo-segundo.mb-5
       h2 2.1 Clasificación y tipos de metodologías para el cálculo del caudal ambiental
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-7
         p.mb-4 Las metodologías para estimar el caudal ambiental pueden clasificarse de acuerdo con el tipo de información utilizada, los procesos considerados y el nivel de integración de las variables ecológicas. Una de las clasificaciones más reconocidas es la propuesta por Tharme (2003) y complementada posteriormente por King et al. (2008), que permite diferenciar los métodos según sus fundamentos y requerimientos de información.
         p.mb-0 De acuerdo con esta clasificación, las metodologías pueden agruparse en cinco categorías principales: hidrológicas, hidráulicas, de simulación de hábitat, holísticas y ecohidráulicas.
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/2.png')
 
-    p.mb-5 Explore el pódcast #[b Métodos hidrológicos] y conozca cómo se utilizan para estimar el caudal ambiental.
+    p.mb-5(data-aos="fade-right") Explore el pódcast #[b Métodos hidrológicos] y conozca cómo se utilizan para estimar el caudal ambiental.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -49,7 +49,7 @@
               ).mb-0
                 p.mb-0 
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6
         img(src='@/assets/curso/tema2/3.svg')
       .col-lg-6
@@ -58,7 +58,7 @@
             h4.text-white.mb-0.ps-2.pe-2 ¿Qué ventajas y limitaciones presentan?
           p.mb-0.mb-lg-2 Su principal ventaja es la facilidad de aplicación, debido a que requieren relativamente poca información y permiten obtener resultados en menor tiempo y con costos reducidos. Por ello, pueden ser útiles en evaluaciones preliminares, cuencas con información limitada y estudios en los que se requiere una primera aproximación al comportamiento del régimen de caudales.
 
-    p.mb-5 Sin embargo, su principal limitación es que se concentran en las características hidrológicas y no representan de manera directa la respuesta de las especies, las condiciones físicas del hábitat, la calidad del agua, la geomorfología o los servicios ecosistémicos. Por esta razón, en estudios de mayor complejidad pueden complementarse con métodos hidráulicos, de simulación de hábitat, eco hidráulicos u holísticos.
+    p.mb-5(data-aos="fade-right") Sin embargo, su principal limitación es que se concentran en las características hidrológicas y no representan de manera directa la respuesta de las especies, las condiciones físicas del hábitat, la calidad del agua, la geomorfología o los servicios ecosistémicos. Por esta razón, en estudios de mayor complejidad pueden complementarse con métodos hidráulicos, de simulación de hábitat, eco hidráulicos u holísticos.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
@@ -67,9 +67,9 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Métodos hidráulicos
 
-    p.mb-4 Los métodos hidráulicos relacionan el caudal con las características físicas del cauce y del hábitat disponible. Para ello, analizan variables como la #[b profundidad, velocidad del flujo, ancho del cauce, perímetro mojado y tensión de corte.]
+    p.mb-4(data-aos="fade-right") Los métodos hidráulicos relacionan el caudal con las características físicas del cauce y del hábitat disponible. Para ello, analizan variables como la #[b profundidad, velocidad del flujo, ancho del cauce, perímetro mojado y tensión de corte.]
     
-    p.mb-5 Entre los métodos más representativos se encuentran:
+    p.mb-5(data-aos="fade-right") Entre los métodos más representativos se encuentran:
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
@@ -86,9 +86,9 @@
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/4.png')
 
-    p.mb-4 Una de sus principales ventajas es que permiten analizar directamente la relación entre el caudal y las condiciones físicas del cauce, proporcionando información más detallada que los métodos exclusivamente hidrológicos.
+    p.mb-4(data-aos="fade-right") Una de sus principales ventajas es que permiten analizar directamente la relación entre el caudal y las condiciones físicas del cauce, proporcionando información más detallada que los métodos exclusivamente hidrológicos.
 
-    p.mb-5 No obstante, requieren campañas de campo para obtener información topográfica e hidráulica y no incorporan por sí solos las interacciones ecológicas ni los procesos biológicos que determinan el funcionamiento del ecosistema. Además, los resultados pueden verse afectados por modificaciones geomorfológicas del cauce, como erosión, sedimentación o cambios en su configuración, por lo que la información puede requerir actualización.
+    p.mb-5(data-aos="fade-right") No obstante, requieren campañas de campo para obtener información topográfica e hidráulica y no incorporan por sí solos las interacciones ecológicas ni los procesos biológicos que determinan el funcionamiento del ecosistema. Además, los resultados pueden verse afectados por modificaciones geomorfológicas del cauce, como erosión, sedimentación o cambios en su configuración, por lo que la información puede requerir actualización.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
@@ -97,17 +97,17 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Métodos de simulación de hábitat
     
-    p.mb-4 Los métodos de simulación de hábitat integran información hidrológica, hidráulica y ecológica para analizar cómo los cambios en el caudal modifican la disponibilidad de hábitat para determinadas especies o comunidades biológicas.
+    p.mb-4(data-aos="fade-right") Los métodos de simulación de hábitat integran información hidrológica, hidráulica y ecológica para analizar cómo los cambios en el caudal modifican la disponibilidad de hábitat para determinadas especies o comunidades biológicas.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/5.png')
       .col-lg-7
-        p.mb-3 Uno de los métodos más conocidos es #[b PHABSIM #[em (Physical Habitat Simulation System)]], que relaciona la geometría del cauce, la profundidad, la velocidad del flujo y las preferencias de hábitat de las especies seleccionadas. Entre sus resultados se encuentra el #[b Área Ponderada Utilizable #[em (Weighted Usable Area, WUA),]] utilizada como indicador de la disponibilidad de hábitat bajo diferentes condiciones de caudal.
+        p.mb-lg-3.mb-4 Uno de los métodos más conocidos es #[b PHABSIM #[em (Physical Habitat Simulation System)]], que relaciona la geometría del cauce, la profundidad, la velocidad del flujo y las preferencias de hábitat de las especies seleccionadas. Entre sus resultados se encuentra el #[b Área Ponderada Utilizable #[em (Weighted Usable Area, WUA),]] utilizada como indicador de la disponibilidad de hábitat bajo diferentes condiciones de caudal.
         .bg7.p-4.mb-0
           p.mb-0 Una de sus principales ventajas es la posibilidad de comparar diferentes escenarios y analizar cómo una variación del caudal puede modificar las condiciones del hábitat. Esto permite apoyar decisiones relacionadas con la operación de embalses, derivaciones, captaciones y otros proyectos que puedan modificar el régimen de flujo.
         
-    p.mb-5 Sin embargo, su aplicación requiere mayor cantidad de información y recursos que los métodos anteriores. Es necesario realizar campañas de campo, recopilar información biológica de las especies objetivo y contar con profesionales especializados en hidrología, hidráulica, ecología y modelación. Por estas razones, su aplicación resulta especialmente pertinente en proyectos de mediana y gran escala o en ecosistemas de alta importancia ecológica.
+    p.mb-5(data-aos="fade-right") Sin embargo, su aplicación requiere mayor cantidad de información y recursos que los métodos anteriores. Es necesario realizar campañas de campo, recopilar información biológica de las especies objetivo y contar con profesionales especializados en hidrología, hidráulica, ecología y modelación. Por estas razones, su aplicación resulta especialmente pertinente en proyectos de mediana y gran escala o en ecosistemas de alta importancia ecológica.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
@@ -116,11 +116,11 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Métodos holísticos
 
-    p.mb-4 Los métodos holísticos consideran el río como un sistema ecológico y social complejo. Por ello, integran diferentes componentes, entre ellos la hidrología, hidráulica, geomorfología, biología, calidad del agua, aspectos sociales, economía y gobernanza.
+    p.mb-4(data-aos="fade-right") Los métodos holísticos consideran el río como un sistema ecológico y social complejo. Por ello, integran diferentes componentes, entre ellos la hidrología, hidráulica, geomorfología, biología, calidad del agua, aspectos sociales, economía y gobernanza.
 
-    p.mb-5 Entre los principales métodos se encuentran:
+    p.mb-5(data-aos="fade-left") Entre los principales métodos se encuentran:
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-8
         AcordionA.press(tipo="b" clase-tarjeta="tarjeta tarjeta--grey")
           .row.align-items-center(titulo="BBM <em>(Building Block Methodology)</em>")
@@ -135,10 +135,10 @@
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/6.png')
 
-    p.mb-5 La principal ventaja de estos métodos es su capacidad para integrar diferentes componentes del sistema y analizar no solo la conservación de la biodiversidad, sino también los servicios ecosistémicos y las necesidades de las comunidades relacionadas con el recurso hídrico.
+    p.mb-5(data-aos="fade-right") La principal ventaja de estos métodos es su capacidad para integrar diferentes componentes del sistema y analizar no solo la conservación de la biodiversidad, sino también los servicios ecosistémicos y las necesidades de las comunidades relacionadas con el recurso hídrico.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-1.d-none.d-lg-block
         img(src='@/assets/curso/tema1/8.svg')
       .col-lg-11
         p.mb-0 Su aplicación, sin embargo, requiere una cantidad considerable de información, equipos interdisciplinarios y procesos de análisis y participación que pueden incrementar los costos y el tiempo de ejecución. Por ello, suelen emplearse en proyectos de gran envergadura, procesos de planificación de cuencas y estudios estratégicos que requieren una visión integral del sistema fluvial.
@@ -150,8 +150,8 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Métodos ecohidráulicos
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/7.png')
       .col-lg-7
         p.mb-3 Los métodos ecohidráulicos integran diferentes herramientas para analizar la relación entre el régimen de flujo, las condiciones hidráulicas y la respuesta de los ecosistemas acuáticos. Constituyen una línea de desarrollo más reciente y aprovechan los avances en modelación, análisis espacial y procesamiento de información.
@@ -209,16 +209,16 @@
     #t_2_2.titulo-segundo.mb-5
       h2 2.2 Nivel de complejidad de las metodologías para la estimación del caudal ambiental
 
-    .row.justify-content-center.align-items-end.mb-5
-      .col-lg-4
+    .row.justify-content-center.align-items-end.mb-5(data-aos="fade-right")
+      .col-lg-4.mb-lg-0.mb-4
         .bg7.p-4
           p.mb-0.mb-lg-1 Uno de los aspectos más importantes en la selección de una metodología para estimar el caudal ambiental es el nivel de complejidad que requiere su aplicación. La complejidad está determinada por diversos factores, entre ellos la disponibilidad y calidad de la información, el nivel de intervención del sistema fluvial, la magnitud del proyecto, los objetivos de conservación, los recursos técnicos y financieros disponibles y las exigencias normativas.
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/8.svg')
       .col-lg-4
         p.mb-0 En términos generales, a mayor complejidad metodológica, se requiere una mayor cantidad de información, equipos especializados y personal interdisciplinario; sin embargo, también aumenta la precisión de los resultados y la capacidad para representar el funcionamiento ecológico del río. En este sentido, la Guía metodológica para la estimación del caudal ambiental del IDEAM propone un enfoque escalonado que permite adaptar la metodología a las condiciones particulares de cada estudio, lo que favorece una gestión eficiente y técnicamente sólida.
       
-    p.mb-5 Las metodologías pueden agruparse en cuatro niveles de complejidad: básico, intermedio, avanzado y holístico.
+    p.mb-5(data-aos="fade-left") Las metodologías pueden agruparse en cuatro niveles de complejidad: básico, intermedio, avanzado y holístico.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -292,7 +292,7 @@
           | Información que integra el método  holístico
         img(src='@/assets/curso/tema2/9.svg', alt='Este es el método holístico para la gestión integral de ríos y cuencas, que relaciona aspectos hidrológicos, hidráulicos, geomorfológicos, biológicos, sociales y económicos para promover su uso sostenible.')
 
-    p.mb-5 La metodología colombiana del IDEAM incorpora muchos de estos principios mediante el análisis del régimen natural de flujo y la evaluación de los servicios ecosistémicos.
+    p.mb-5(data-aos="fade-right") La metodología colombiana del IDEAM incorpora muchos de estos principios mediante el análisis del régimen natural de flujo y la evaluación de los servicios ecosistémicos.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12
@@ -372,7 +372,7 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Factores que determinan el nivel de complejidad
 
-    p.mb-5 La selección del nivel metodológico no depende exclusivamente de la disponibilidad de información. Antes de iniciar un estudio de caudal ambiental, es necesario analizar diversos factores relacionados con las características del proyecto, las condiciones del ecosistema, los requerimientos regulatorios y los recursos disponibles.
+    p.mb-5(data-aos="fade-right") La selección del nivel metodológico no depende exclusivamente de la disponibilidad de información. Antes de iniciar un estudio de caudal ambiental, es necesario analizar diversos factores relacionados con las características del proyecto, las condiciones del ecosistema, los requerimientos regulatorios y los recursos disponibles.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-3.d-none.d-lg-block
@@ -411,9 +411,9 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Criterios para seleccionar la metodología
 
-    p.mb-5 La selección de la metodología debe realizarse a partir de un análisis integral de las características del proyecto, las condiciones del sistema fluvial y los objetivos del estudio. Para ello, el equipo técnico debe considerar, entre otros, los siguientes interrogantes:
+    p.mb-5(data-aos="fade-right") La selección de la metodología debe realizarse a partir de un análisis integral de las características del proyecto, las condiciones del sistema fluvial y los objetivos del estudio. Para ello, el equipo técnico debe considerar, entre otros, los siguientes interrogantes:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6
         ul.lista-ul.mb-0
           li.d-flex.mb-1
@@ -440,10 +440,10 @@
           li.d-flex.mb-0
             i.fas.fa-drop.i2
             p.mb-0 ¿Cuál es el presupuesto disponible para desarrollar el estudio?
-      .col-lg-6
+      .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/tema2/11.png')
     
-    p.mb-5 El análisis de estos criterios permite seleccionar una metodología técnicamente pertinente y proporcional al nivel de complejidad del problema, evitando tanto la aplicación de métodos insuficientes como el uso de procedimientos excesivamente complejos frente a las necesidades reales del estudio.
+    p.mb-5(data-aos="fade-right") El análisis de estos criterios permite seleccionar una metodología técnicamente pertinente y proporcional al nivel de complejidad del problema, evitando tanto la aplicación de métodos insuficientes como el uso de procedimientos excesivamente complejos frente a las necesidades reales del estudio.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
@@ -452,7 +452,7 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Tendencias actuales
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-6
         p.mb-3 En los últimos años, la estimación del caudal ambiental ha incorporado herramientas tecnológicas que permiten mejorar la precisión de los análisis, optimizar el procesamiento de información y evaluar un mayor número de escenarios de gestión.
         p.mb-3 Entre las principales tendencias se encuentran:
@@ -478,11 +478,11 @@
           li.d-flex.mb-0
             i.fas.fa-drop.i2
             p.mb-0 Modelación integrada de cuencas bajo diferentes escenarios de cambio climático.
-      .col-lg-6
+      .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/tema2/12.png')
 
-    .row.justify-content-center.align-items-center.mb-0
-      .col-lg-1
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-1.d-none.d-lg-block
         img(src='@/assets/curso/tema1/8.svg')
       .col-lg-11
         p.mb-0 La incorporación de estas herramientas facilita la integración de información hidrológica, hidráulica, ecológica y espacial, y permite analizar diferentes escenarios de manejo del recurso hídrico. Su aplicación resulta especialmente relevante en cuencas sometidas a una alta presión por el uso del agua o que presentan condiciones de variabilidad climática y ambiental.
@@ -492,15 +492,15 @@
     #t_2_3.titulo-segundo.mb-5
       h2 2.3 Información requerida para la estimación del caudal ambiental
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/13.png')
       .col-lg-7
         p.mb-3 La calidad de un estudio de caudal ambiental depende, en gran medida, de la cantidad, calidad, continuidad y representatividad de la información utilizada. La selección de una metodología técnicamente adecuada pierde efectividad cuando los datos de entrada son insuficientes, presentan inconsistencias o no representan de manera apropiada las condiciones hidrológicas, físicas y ecológicas del sistema fluvial.
         .bg9.p-4.mb-0
           p.mb-0 En este sentido, #[b la Guía metodológica para la estimación del caudal ambiental del IDEAM] establece como fase inicial del estudio el levantamiento y la caracterización del cuerpo de agua. Este proceso comprende la recopilación, validación, análisis y organización de la información necesaria para comprender el funcionamiento de los sistemas hidrológico y ecológico. A partir de esta caracterización es posible establecer el régimen natural de flujo, determinar la condición ecológica objetivo y formular escenarios para el manejo del recurso hídrico.
 
-    p.mb-5 La recopilación de información debe integrar #[b fuentes primarias,] obtenidas mediante trabajo de campo y mediciones directas, y #[b fuentes secundarias,] provenientes de bases de datos, estudios previos, registros históricos y cartografía oficial. En todos los casos, los datos deben someterse a procesos de revisión y validación que permitan garantizar su confiabilidad, actualidad y representatividad frente a las condiciones de la cuenca.
+    p.mb-5(data-aos="fade-left") La recopilación de información debe integrar #[b fuentes primarias,] obtenidas mediante trabajo de campo y mediciones directas, y #[b fuentes secundarias,] provenientes de bases de datos, estudios previos, registros históricos y cartografía oficial. En todos los casos, los datos deben someterse a procesos de revisión y validación que permitan garantizar su confiabilidad, actualidad y representatividad frente a las condiciones de la cuenca.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
@@ -509,7 +509,7 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Tipos de información requerida
 
-    p.mb-5 La estimación del caudal ambiental requiere integrar información de diferentes disciplinas para lograr una caracterización completa del sistema fluvial. En términos generales, se consideran seis grupos principales: información hidrológica, hidráulica, geomorfológica, climática, ecológica y socioeconómica.
+    p.mb-5(data-aos="fade-right") La estimación del caudal ambiental requiere integrar información de diferentes disciplinas para lograr una caracterización completa del sistema fluvial. En términos generales, se consideran seis grupos principales: información hidrológica, hidráulica, geomorfológica, climática, ecológica y socioeconómica.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-8
@@ -552,8 +552,8 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Fuentes de información
 
-    p.mb-0 La calidad del estudio depende de utilizar fuentes oficiales y verificables.
-    p.mb-5 En Colombia las principales son:
+    p.mb-0(data-aos="fade-right") La calidad del estudio depende de utilizar fuentes oficiales y verificables.
+    p.mb-5(data-aos="fade-right") En Colombia las principales son:
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
@@ -593,10 +593,10 @@
               tr.bgr
                 td Servicio Geológico Colombiano
                 td Geología y amenazas.
-      .col-lg-3
+      .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema2/16.svg')
 
-    p.mb-5 Además de estas fuentes nacionales, pueden consultarse bases de datos internacionales como: FAO AQUASTAT; NASA EarthData; Copernicus; HydroSHEDS; Global Runoff Data Centre (GRDC).
+    p.mb-5(data-aos="fade-right") Además de estas fuentes nacionales, pueden consultarse bases de datos internacionales como: FAO AQUASTAT; NASA EarthData; Copernicus; HydroSHEDS; Global Runoff Data Centre (GRDC).
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
@@ -605,12 +605,12 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Levantamiento de información en campo
 
-    p.mb-4 Aunque actualmente existe una gran cantidad de información secundaria, la mayoría de los estudios requieren campañas de campo para validar las condiciones reales del río.
+    p.mb-4(data-aos="fade-right") Aunque actualmente existe una gran cantidad de información secundaria, la mayoría de los estudios requieren campañas de campo para validar las condiciones reales del río.
 
     .row.fd2.p-5.fon.mb-4(data-aos="fade-down")
       .col-lg-12
         .row.justify-content-center.align-items-center.mb-0
-          .col-lg-4
+          .col-lg-4.col-md-7.col-10.mb-lg-0.mb-4
             img(src='@/assets/curso/tema2/17.svg')
           .col-lg-8
             p.mb-4.text-white Las actividades de campo generalmente incluyen:
@@ -764,11 +764,11 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Herramientas informáticas
 
-    p.mb-5 Actualmente, los estudios de caudal ambiental incorporan diversas plataformas especializadas.
+    p.mb-5(data-aos="fade-right") Actualmente, los estudios de caudal ambiental incorporan diversas plataformas especializadas.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-6
-        ol.lista-ol--cuadro.lista-ol--separador.mb-3
+        ol.lista-ol--cuadro.lista-ol--separador.mb-lg-3.mb-5
           li.d-flex
             .lista-ol--cuadro__vineta
               span a
@@ -795,7 +795,7 @@
             | Sensores remotos: Google Earth Engine, Sentinel Hub.
         .bg10.p-4
           p.mb-0 La integración de estas herramientas permite simular escenarios futuros, evaluar el impacto del cambio climático y optimizar la gestión del recurso hídrico.
-      .col-lg-6
+      .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/tema2/24.png')
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
@@ -805,11 +805,11 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 Calidad y validación de la información
     
-    p.mb-5 Antes de utilizar la información recopilada, es indispensable verificar su calidad mediante procedimientos de control y validación.
+    p.mb-5(data-aos="fade-right") Antes de utilizar la información recopilada, es indispensable verificar su calidad mediante procedimientos de control y validación.
 
-    .b2.p-4.mb-5
+    .b2.p-4.mb-5(data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-0
-        .col-lg-5
+        .col-lg-5.mb-lg-0.mb-4
           p.mb-4 Entre los aspectos que deben revisarse se encuentran:
           ul.lista-ul.mb-0
             li.d-flex.mb-1
@@ -836,7 +836,7 @@
         .col-lg-7
           img(src='@/assets/curso/tema2/25.png')
     
-    p.mb-5 Cuando existen vacíos en las series históricas pueden utilizarse métodos de regionalización hidrológica o modelos de simulación, siempre documentando claramente los procedimientos empleados.
+    p.mb-5(data-aos="fade-right") Cuando existen vacíos en las series históricas pueden utilizarse métodos de regionalización hidrológica o modelos de simulación, siempre documentando claramente los procedimientos empleados.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
@@ -885,14 +885,14 @@
     #t_2_4.titulo-segundo.mb-5
       h2 2.4 Casos de aplicación de metodologías para la estimación del caudal ambiental
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-1
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+      .col-lg-1.d-none.d-lg-block
         img(src='@/assets/curso/tema2/26.svg')
       .col-lg-11
         p.mb-0 Las metodologías para la estimación del caudal ambiental adquieren verdadero valor cuando se aplican a la resolución de problemas concretos de gestión del recurso hídrico. Aunque existen principios generales ampliamente aceptados, cada cuenca hidrográfica presenta condiciones hidrológicas, ecológicas, sociales y económicas particulares, lo que hace necesario adaptar las metodologías a las características específicas de cada territorio.
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/27.png')
       .col-lg-7
         .bg9.p-4.mb-4 
@@ -937,11 +937,11 @@
     #t_2_5.titulo-segundo.mb-5
       h2 2.5 Análisis del caso: selección de la metodología para estimar el caudal ambiental
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/28.png')
       .col-lg-7  
-        img.img-t.mb-3(src='@/assets/curso/tema2/29.svg')
+        img.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/tema2/29.svg')
         p.mb-0 La Corporación Autónoma Regional (CAR) evaluó un estudio para determinar el caudal ambiental de un río donde se proyectaba una nueva captación de agua. Aunque se contaba con 22 años de registros hidrológicos, información hidráulica, datos ecológicos y antecedentes sobre los usos del recurso, la autoridad identificó que una metodología exclusivamente hidrológica no era suficiente para representar las necesidades del ecosistema y de los usuarios ubicados aguas abajo.
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-right")
@@ -971,7 +971,7 @@
         .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4
           h3.mb-0 ¿Qué decisión tomó la CAR?
 
-    p.mb-5 La autoridad recomendó un enfoque metodológico integrado, que utilizara la información hidrológica como base y la complementara con análisis hidráulicos, ecológicos y socioeconómicos.
+    p.mb-5(data-aos="fade-right") La autoridad recomendó un enfoque metodológico integrado, que utilizara la información hidrológica como base y la complementara con análisis hidráulicos, ecológicos y socioeconómicos.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-6.d-none.d-lg-block
@@ -1000,9 +1000,9 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require_src('@/assets/curso/tema1/16.png ')})`}"
           )
-          .bloque-texto-g__texto.p-4
+          .bloque-texto-g__texto.p-4.flex-column
             .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-              .col-auto.ps-2.pe-1.mi
+              .col-auto.ps-2.pe-1.mi.oc
                 img.img-t(src='@/assets/curso/tema1/sub.svg')
               .col.ps-0
                 .sub.p-1.pe-lg-4.ps-lg-4.pe-md-4.ps-md-4.pe-4.ps-4

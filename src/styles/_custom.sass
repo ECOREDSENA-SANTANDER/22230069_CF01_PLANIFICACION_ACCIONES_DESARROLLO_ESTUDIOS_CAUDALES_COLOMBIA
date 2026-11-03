@@ -99,6 +99,9 @@ figcaption
   display: block
   margin: auto
 
+  
+.banner-interno__titulo__icono i 
+    color: black
 
 .bg1
   background-color: #E5EEF2
@@ -198,20 +201,34 @@ figcaption
     h3
       color: black 
 
-.fa-drop
-  content: url('../assets/curso/tema1/i1.svg')
-  width: 1.2em  
-  height: 1.2em 
-  top: 0px !important
+.lista-ul
+  list-style: none
+  padding: 0
+  li
+    align-items: flex-start
+    gap: 0.2em
+  .fa-drop
+    content: url('../assets/curso/tema1/i1.svg')
+    flex: 0 0 1.2em
+    width: 1.2em
+    height: 1.2em
+    margin-top: -0.1em
+  .i2
+    content: url('../assets/curso/tema1/i2.svg')
+    flex: 0 0 1.2em
+    width: 1.2em
+    height: 1.2em
+    margin-top: -0.1em
+  p
+    flex: 1
+    min-width: 0
+
+.oc
+  @media (max-width: 767px)
+    display: none
 
 .bloque-texto-g.color-secundario 
   background-color: #9BBCCB
-
-.i2
-  content: url('../assets/curso/tema1/i2.svg')
-  width: 1.2em  
-  height: 1.2em 
-  top: 0px !important
 
 .sub1
   display: flex
