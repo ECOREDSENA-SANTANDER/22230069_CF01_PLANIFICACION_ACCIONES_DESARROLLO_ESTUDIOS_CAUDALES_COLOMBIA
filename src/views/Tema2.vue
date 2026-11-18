@@ -45,7 +45,7 @@
               .tarjeta.bg-white.p-4.p-lg-5.h-100
                 TarjetaAudio.color-acento-botones.mb-0(
                 texto="Métodos hidrológicos"
-                :audio="require_src('@/assets/actividad/audio/end-game-success.mp3')"
+                :audio="require_src('@/assets/actividad/audio/Podcast_2.mp3')"
               ).mb-0
                 p.mb-0 
 

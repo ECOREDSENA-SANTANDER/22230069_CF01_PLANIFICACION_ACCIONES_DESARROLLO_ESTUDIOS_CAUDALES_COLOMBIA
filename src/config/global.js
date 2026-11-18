@@ -347,8 +347,8 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y productora audiovisual',
+          nombre: 'Johann Sebastian Teran Carvajal',
+          cargo: 'Animador y productor audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
