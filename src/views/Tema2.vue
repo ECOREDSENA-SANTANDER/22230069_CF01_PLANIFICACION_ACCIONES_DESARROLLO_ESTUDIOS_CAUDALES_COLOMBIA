@@ -943,6 +943,8 @@
       .col-lg-7  
         img.img-t.mb-3.d-none.d-lg-block(src='@/assets/curso/tema2/29.svg')
         p.mb-0 La Corporación Autónoma Regional (CAR) evaluó un estudio para determinar el caudal ambiental de un río donde se proyectaba una nueva captación de agua. Aunque se contaba con 22 años de registros hidrológicos, información hidráulica, datos ecológicos y antecedentes sobre los usos del recurso, la autoridad identificó que una metodología exclusivamente hidrológica no era suficiente para representar las necesidades del ecosistema y de los usuarios ubicados aguas abajo.
+    
+    p.mb-5 Durante la evaluación se analizaron tres alternativas:
 
     .row.justify-content-center.align-items-stretch.mb-lg-5.mb-4(data-aos="fade-right")
       .col-lg-4.col-md-6.mb-lg-0.mb-4
