@@ -58,7 +58,7 @@
             h4.text-white.mb-0.ps-2.pe-2 ¿Qué ventajas y limitaciones presentan?
           p.mb-0.mb-lg-2 Su principal ventaja es la facilidad de aplicación, debido a que requieren relativamente poca información y permiten obtener resultados en menor tiempo y con costos reducidos. Por ello, pueden ser útiles en evaluaciones preliminares, cuencas con información limitada y estudios en los que se requiere una primera aproximación al comportamiento del régimen de caudales.
 
-    p.mb-5(data-aos="fade-right") Sin embargo, su principal limitación es que se concentran en las características hidrológicas y no representan de manera directa la respuesta de las especies, las condiciones físicas del hábitat, la calidad del agua, la geomorfología o los servicios ecosistémicos. Por esta razón, en estudios de mayor complejidad pueden complementarse con métodos hidráulicos, de simulación de hábitat, eco hidráulicos u holísticos.
+    p.mb-5(data-aos="fade-right") Sin embargo, su principal limitación es que se concentran en las características hidrológicas y no representan de manera directa la respuesta de las especies, las condiciones físicas del hábitat, la calidad del agua, la geomorfología o los servicios ecosistémicos. Por esta razón, en estudios de mayor complejidad pueden complementarse con métodos hidráulicos, de simulación de hábitat, ecohidráulicos u holísticos.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
@@ -103,7 +103,7 @@
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/5.png')
       .col-lg-7
-        p.mb-lg-3.mb-4 Uno de los métodos más conocidos es #[b PHABSIM #[em (Physical Habitat Simulation System)]], que relaciona la geometría del cauce, la profundidad, la velocidad del flujo y las preferencias de hábitat de las especies seleccionadas. Entre sus resultados se encuentra el #[b Área Ponderada Utilizable #[em (Weighted Usable Area, WUA),]] utilizada como indicador de la disponibilidad de hábitat bajo diferentes condiciones de caudal.
+        p.mb-lg-3.mb-4 Uno de los métodos más conocidos es #[b PHABSIM #[em (Physical Habitat Simulation System)]], que relaciona la geometría del cauce, la profundidad, la velocidad del flujo y las preferencias de hábitat de las especies seleccionadas. Entre sus resultados se encuentra el #[b área ponderada utilizable #[em (Weighted Usable Area, WUA),]] utilizada como indicador de la disponibilidad de hábitat bajo diferentes condiciones de caudal.
         .bg7.p-4.mb-0
           p.mb-0 Una de sus principales ventajas es la posibilidad de comparar diferentes escenarios y analizar cómo una variación del caudal puede modificar las condiciones del hábitat. Esto permite apoyar decisiones relacionadas con la operación de embalses, derivaciones, captaciones y otros proyectos que puedan modificar el régimen de flujo.
         
@@ -471,7 +471,7 @@
             p.mb-0 Inteligencia artificial aplicada a la predicción hidrológica.
           li.d-flex.mb-1
             i.fas.fa-drop.i2
-            p.mb-0 Aprendizaje automático (Machine Learning) para la estimación de caudales.
+            p.mb-0 Aprendizaje automático (#[em Machine Learning]) para la estimación de caudales.
           li.d-flex.mb-1
             i.fas.fa-drop.i2
             p.mb-0 Sistemas de información geográfica (SIG) avanzados.
@@ -538,10 +538,10 @@
               img(src='@/assets/curso/tema2/15.svg', alt='Los componentes biológicos para evaluar el caudal ambiental: fauna íctica, macroinvertebrados acuáticos, vegetación ribereña, humedales asociados y ecosistemas estratégicos, destacando su importancia para la conservación de los ecosistemas y el bienestar humano.')
           .row.align-items-center(titulo="Información fisicoquímica")
             .col-lg-12
-              p.mb-0 La calidad del agua influye directamente en la funcionalidad del ecosistema. Los principales parámetros incluyen: temperatura; oxígeno disuelto; pH; conductividad; sólidos suspendidos; turbidez; DBO; DQO; nitrógeno; fósforo.
+              p.mb-0 La calidad del agua influye directamente en la funcionalidad del ecosistema. Los principales parámetros incluyen: temperatura, oxígeno disuelto, pH, conductividad, sólidos suspendidos, turbidez, DBO, DQO, nitrógeno, fósforo.
           .row.align-items-center(titulo="Información socioeconómica")
             .col-lg-12
-              p.mb-0 Las metodologías holísticas consideran que el agua cumple múltiples funciones para la sociedad. Por ello, resulta necesario caracterizar: abastecimiento humano; riego; generación hidroeléctrica; pesca; turismo; recreación; navegación; usos culturales; comunidades indígenas; comunidades afrodescendientes; conflictos por el agua. La evaluación de estos aspectos facilita la construcción de escenarios participativos para la asignación del recurso.
+              p.mb-0 Las metodologías holísticas consideran que el agua cumple múltiples funciones para la sociedad. Por ello, resulta necesario caracterizar: abastecimiento humano, riego, generación hidroeléctrica, pesca, turismo, recreación, navegación, usos culturales, comunidades indígenas, comunidades afrodescendientes, conflictos por el agua. La evaluación de estos aspectos facilita la construcción de escenarios participativos para la asignación del recurso.
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/tema2/14.png')
 
@@ -596,7 +596,7 @@
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/tema2/16.svg')
 
-    p.mb-5(data-aos="fade-right") Además de estas fuentes nacionales, pueden consultarse bases de datos internacionales como: FAO AQUASTAT; NASA EarthData; Copernicus; HydroSHEDS; Global Runoff Data Centre (GRDC).
+    p.mb-5(data-aos="fade-right") Además de estas fuentes nacionales, pueden consultarse bases de datos internacionales como FAO AQUASTAT, NASA EarthData, Copernicus, HydroSHEDS, Global Runoff Data Centre (GRDC).
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-auto.ps-2.pe-1.mi
@@ -788,7 +788,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span e
-            | Análisis hidrológico: IHA (Indicators of Hydrologic Alteration).
+            | Análisis hidrológico: IHA (#[em Indicators of Hydrologic Alteration]).
           li.d-flex
             .lista-ol--cuadro__vineta
               span f
@@ -905,7 +905,7 @@
           .row.justify-content-center.align-items-center(titulo="Caso de estudio 1. Río Bogotá (Colombia)")
             .col-lg-11
               p.mb-4 #[b Contexto:] es uno de los sistemas hídricos más importantes y más intervenidos de Colombia, debido al crecimiento urbano, la expansión industrial y el desarrollo de infraestructura hidráulica. Estas presiones han alterado el régimen natural de flujo y afectado la calidad del agua, la biodiversidad y los servicios ecosistémicos. 
-              p.mb-4 #[b Metodología:] en 2019, el Ministerio de Ambiente y Desarrollo Sostenible y el IDEAM desarrollaron una metodología con enfoque holístico basada en el régimen natural de flujo. El estudio comprendió la recopilación y caracterización de información, la estimación del régimen ambiental considerando el funcionamiento ecológico y la evaluación de los servicios ecosistémicos. Se analizaron magnitud, frecuencia, duración, oportunidad (timing) y tasa de cambio. 
+              p.mb-4 #[b Metodología:] en 2019, el Ministerio de Ambiente y Desarrollo Sostenible y el IDEAM desarrollaron una metodología con enfoque holístico basada en el régimen natural de flujo. El estudio comprendió la recopilación y caracterización de información, la estimación del régimen ambiental considerando el funcionamiento ecológico y la evaluación de los servicios ecosistémicos. Se analizaron magnitud, frecuencia, duración, oportunidad (#[em timing]) y tasa de cambio. 
               p.mb-4 #[b Resultados:] se determinó que la conservación del ecosistema requiere preservar la variabilidad natural del río y no únicamente mantener un caudal mínimo. Se plantearon medidas de restauración ecológica, control de vertimientos, regulación de captaciones, monitoreo hidrológico y seguimiento biológico.
               p.mb-0 #[b Lecciones aprendidas:] el caudal ambiental debe entenderse como un régimen de flujo; la integración entre hidrología y ecología fortalece la toma de decisiones; y el monitoreo continuo permite implementar procesos de gestión adaptativa.
           .row.justify-content-center.align-items-center(titulo="Caso de estudio 2. <em>Building Block Methodology </em>(Sudáfrica)")

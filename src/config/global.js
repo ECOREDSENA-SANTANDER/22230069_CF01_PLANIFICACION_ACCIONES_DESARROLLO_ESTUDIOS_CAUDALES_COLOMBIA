@@ -144,79 +144,79 @@ export default {
   },
   glosario: [
     {
-      termino: 'Actividades de campo',
-      significado:
-        'tareas realizadas directamente en el área de estudio para recopilar información hidrológica, hidráulica y ecológica.',
-    },
-    {
       termino: 'Caudal ambiental',
       significado:
-        'régimen de flujo de agua necesario para mantener los ecosistemas acuáticos y los servicios ecosistémicos asociados.',
+        'cantidad y distribución de agua necesaria para mantener las funciones ecológicas de un ecosistema acuático.',
     },
     {
-      termino: 'Cronograma',
+      termino: 'Caudal',
       significado:
-        'herramienta de planificación que organiza las actividades de un estudio según su duración, secuencia y fechas de ejecución.',
+        'volumen de agua que circula por una sección de una corriente durante un periodo determinado.',
     },
     {
-      termino: 'Estudio de caudal ambiental',
+      termino: 'Ecosistema acuático',
       significado:
-        'proceso técnico que permite determinar las condiciones de flujo necesarias para mantener el funcionamiento de los ecosistemas acuáticos.',
+        'sistema natural en el que interactúan organismos vivos y componentes físicos y químicos del ambiente acuático.',
     },
     {
-      termino: 'Gestión de proyectos',
+      termino: 'Estimación del caudal ambiental',
       significado:
-        'conjunto de procesos orientados a planificar, organizar, ejecutar y controlar las actividades y los recursos de un proyecto.',
+        'proceso técnico para determinar los flujos de agua necesarios para conservar un ecosistema.',
     },
     {
-      termino: 'Herramientas digitales',
+      termino: 'Estudio de caudales ambientales',
       significado:
-        'aplicaciones y programas informáticos que facilitan la planificación, el procesamiento de datos, la modelación y el seguimiento de un estudio.',
-    },
-    {
-      termino: 'Información hidrológica',
-      significado:
-        'datos relacionados con el comportamiento del agua, como caudales, precipitaciones, escorrentía y variaciones temporales del flujo.',
+        'análisis orientado a identificar las necesidades de flujo de agua de un ecosistema y sus condiciones ambientales.',
     },
     {
       termino: 'Metodología',
       significado:
-        'conjunto de procedimientos y técnicas seleccionados para desarrollar un estudio y alcanzar sus objetivos.',
+        'conjunto de procedimientos y técnicas utilizados para desarrollar un estudio y alcanzar sus objetivos.',
     },
     {
-      termino: 'Modelación hidráulica',
+      termino: 'Método hidrológico',
       significado:
-        'representación del comportamiento del agua mediante modelos que permiten analizar variables como velocidad, profundidad y nivel del flujo.',
+        'procedimiento basado en registros históricos y estadísticas de caudales para estimar el caudal ambiental.',
     },
     {
-      termino: 'Monitoreo',
+      termino: 'Método hidráulico',
       significado:
-        'seguimiento sistemático de variables y condiciones ambientales para evaluar cambios y verificar el cumplimiento de los objetivos establecidos.',
+        'técnica que analiza variables como profundidad, velocidad y características del flujo de agua.',
     },
     {
-      termino: 'Plan de trabajo',
+      termino: 'Método hidrobiológico',
       significado:
-        'documento que establece las actividades, los responsables, los tiempos y los recursos necesarios para ejecutar un estudio.',
+        'procedimiento que considera los organismos acuáticos y sus necesidades para determinar los requerimientos de caudal.',
     },
     {
-      termino: 'Presupuesto',
+      termino: 'Método holístico',
       significado:
-        'estimación de los costos asociados con el personal, los equipos, las actividades de campo, el procesamiento de datos y los productos técnicos.',
+        'enfoque que integra diferentes componentes ambientales, hidrológicos, hidráulicos y ecológicos para estimar el caudal ambiental.',
     },
     {
-      termino: 'Recursos técnicos',
+      termino: 'Régimen hidrológico',
       significado:
-        'equipos, instrumentos, materiales y conocimientos especializados requeridos para desarrollar las actividades de un estudio.',
+        'comportamiento de los caudales de una corriente de agua a lo largo del tiempo.',
     },
     {
-      termino: 'Sistemas de Información Geográfica (SIG)',
+      termino: 'Serie histórica de caudales',
       significado:
-        'herramientas tecnológicas que permiten recopilar, gestionar, analizar y representar información geográfica relacionada con la cuenca y el sistema fluvial.',
+        'registro de mediciones de caudal recopiladas durante un periodo determinado.',
     },
     {
-      termino: 'Trabajo interdisciplinario',
+      termino: 'Aforo',
       significado:
-        'colaboración entre profesionales de diferentes áreas del conocimiento para integrar perspectivas y desarrollar estudios de caudal ambiental de manera integral.',
+        'procedimiento técnico utilizado para medir el caudal de agua que circula por una corriente.',
+    },
+    {
+      termino: 'Cuenca hidrográfica',
+      significado:
+        'territorio cuyas aguas drenan hacia un mismo río, quebrada o cuerpo de agua.',
+    },
+    {
+      termino: 'Selección metodológica',
+      significado:
+        'proceso de elección de la metodología más adecuada según las características del ecosistema, la información disponible y los objetivos del estudio.',
     },
   ],
   referencias: [
@@ -357,7 +357,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Yineth Ibette González Quintero',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Validadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },

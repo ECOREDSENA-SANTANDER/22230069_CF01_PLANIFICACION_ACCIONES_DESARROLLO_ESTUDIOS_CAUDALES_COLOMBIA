@@ -119,7 +119,7 @@
           h4.mb-0 Hidráulico
       .col-lg-3.col-md-6.mb-4.mb-lg-0
         .pol.bg5.h-100.p-4.p-lg-5.cen
-          h4.mb-0.text-white Eco hidráulico 
+          h4.mb-0.text-white Ecohidráulico 
       .col-lg-3.col-md-6.mb-4.mb-lg-0
         .pol.pol--fin.bg6.h-100.p-4.p-lg-5.cen
           h4.mb-0 Holístico
@@ -128,7 +128,7 @@
       .col-lg-1.d-none.d-lg-block
         img(src='@/assets/curso/tema1/11.svg')
       .col-lg-11
-        p.mb-0 Esta evolución muestra cómo la estimación del caudal ambiental pasó de preguntarse #[b “¿cuánta agua hay?”] a plantear preguntas más amplias como #[b “¿qué condiciones genera ese flujo en el hábitat?”], #[b “¿cómo responden los organismos?” y “¿qué régimen permite mantener el funcionamiento del sistema socio ecológico?”.]
+        p.mb-0 Esta evolución muestra cómo la estimación del caudal ambiental pasó de preguntarse #[b “¿cuánta agua hay?”] a plantear preguntas más amplias como #[b “¿qué condiciones genera ese flujo en el hábitat?”], #[b “¿cómo responden los organismos?” y “¿qué régimen permite mantener el funcionamiento del sistema socioecológico?”.]
         
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
@@ -177,9 +177,9 @@
                   p.mb-0 Su principal ventaja consiste en establecer una relación más directa entre el caudal y las características físicas del hábitat. No obstante, un hábitat físicamente adecuado no garantiza por sí mismo la presencia o supervivencia de una especie, debido a que también intervienen factores como la competencia, la reproducción, la migración, la calidad del agua y la disponibilidad de alimento.
                 .col-lg-6.d-none.d-lg-block
                   img(src='@/assets/curso/tema1/13.png')
-          .row.justify-content-center.align-items-center(titulo="Enfoque eco hidráulico")
+          .row.justify-content-center.align-items-center(titulo="Enfoque ecohidráulico")
             .col-lg-11
-              p.mb-4 El enfoque eco hidráulico integra conocimientos de #[b hidrología, hidráulica y ecología.] Su propósito es analizar cómo las variaciones del caudal afectan la disponibilidad de hábitat para especies indicadoras, mediante modelos de simulación que relacionan las condiciones físicas del cauce con los requerimientos de los organismos.
+              p.mb-4 El enfoque ecohidráulico integra conocimientos de #[b hidrología, hidráulica y ecología.] Su propósito es analizar cómo las variaciones del caudal afectan la disponibilidad de hábitat para especies indicadoras, mediante modelos de simulación que relacionan las condiciones físicas del cauce con los requerimientos de los organismos.
               .row.justify-content-center.align-items-center.mb-0
                 .col-lg-6
                   p.mb-4 Una metodología reconocida dentro de este enfoque es el #[em Physical Habitat Simulation System] (PHABSIM), que combina modelos hidráulicos, curvas de preferencia de hábitat y requerimientos ecológicos de especies objetivo. El resultado permite estimar la superficie útil de hábitat disponible bajo diferentes escenarios de caudal. Actualmente, estas evaluaciones pueden complementarse con herramientas como HEC-RAS, sistemas de información geográfica y modelos de hábitat.
@@ -188,7 +188,7 @@
                   img(src='@/assets/curso/tema1/14.png')
           .row.justify-content-center.align-items-center(titulo="Enfoque holístico")
             .col-lg-11
-              p.mb-0 El enfoque holístico representa una perspectiva integral para la estimación del caudal ambiental. Considera el río como un #[b sistema socio ecológico complejo,] en el que interactúan procesos hidrológicos, geomorfológicos, ecológicos, económicos y culturales.
+              p.mb-0 El enfoque holístico representa una perspectiva integral para la estimación del caudal ambiental. Considera el río como un #[b sistema socioecológico complejo,] en el que interactúan procesos hidrológicos, geomorfológicos, ecológicos, económicos y culturales.
               p.mb-4 Desde esta perspectiva, el objetivo no consiste únicamente en conservar determinadas especies, sino en mantener el funcionamiento integral del ecosistema y los servicios ambientales que este proporciona a la sociedad.
               .row.justify-content-center.align-items-center.mb-4
                 .col-lg-6
@@ -237,7 +237,7 @@
                     p.mb-0 #[b Hidráulico:] ¿qué condiciones físicas genera el caudal?
                   li.d-flex.mb-0
                     i.fas.fa-drop.i2
-                    p.mb-0 #[b Eco hidráulico:] ¿cómo responden los organismos y sus hábitats?
+                    p.mb-0 #[b Ecohidráulico:] ¿cómo responden los organismos y sus hábitats?
                   li.d-flex.mb-0
                     i.fas.fa-drop.i2
                     p.mb-0 #[b Holístico:] ¿cómo interactúan los componentes ecológicos y sociales del sistema?
@@ -270,7 +270,7 @@
                 td Media.
                 td Estudios locales de hábitat físico.
               tr
-                td Eco hidráulico
+                td Ecohidráulico
                 td Hidrología, hidráulica y biología.
                 td Alta.
                 td Alta.
@@ -624,7 +624,7 @@
         img.img-a.img-t(src='@/assets/curso/tema1/40.png')
       .col-lg-8
         p.mb-4 Uno de los instrumentos tradicionales es el #[b molinete hidrométrico,] cuya hélice gira de acuerdo con la velocidad del flujo. Es un equipo práctico y de amplia utilización, aunque puede presentar limitaciones en ríos muy profundos o durante crecientes.
-        p.mb-4 Otra alternativa es el #[b Perfilador Acústico Doppler (ADCP),] utilizado para realizar aforos de alta precisión. Este equipo emplea el efecto Doppler para determinar la velocidad del flujo a diferentes profundidades y permite obtener información del perfil de velocidades y del área transversal del cauce.
+        p.mb-4 Otra alternativa es el #[b perfilador acústico Doppler (ADCP),] utilizado para realizar aforos de alta precisión. Este equipo emplea el efecto Doppler para determinar la velocidad del flujo a diferentes profundidades y permite obtener información del perfil de velocidades y del área transversal del cauce.
         .bg7.p-4.mb-0.mt-lg-1
           p.mb-0.mt-lg-3.mb-lg-3.mx-lg-2 También existen métodos más sencillos, como los #[b aforos mediante flotadores,] útiles principalmente para actividades educativas o estudios exploratorios, y métodos de #[b dilución de trazadores,] empleados especialmente en determinados ríos de montaña y condiciones de flujo turbulento o geometría irregular.
       
