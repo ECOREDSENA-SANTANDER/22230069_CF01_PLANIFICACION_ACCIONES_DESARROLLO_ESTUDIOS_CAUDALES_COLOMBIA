@@ -34,7 +34,7 @@
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/tema2/2.png')
 
-    p.mb-5(data-aos="fade-right") Explore el pódcast #[b Métodos hidrológicos] y conozca cómo se utilizan para estimar el caudal ambiental.
+    p.mb-4(data-aos="fade-right") Explore el pódcast #[b "Métodos hidrológicos"] y conozca cómo se utilizan para estimar el caudal ambiental.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-12

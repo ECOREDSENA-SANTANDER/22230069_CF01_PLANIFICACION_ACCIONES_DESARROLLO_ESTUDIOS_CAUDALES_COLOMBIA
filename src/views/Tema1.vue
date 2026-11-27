@@ -754,7 +754,7 @@
       .col-lg-6.d-none.d-lg-block
         img(src='@/assets/curso/tema1/44.png')
     
-    p.mb-5(data-aos="fade-left") Explore el pódcast ¿Qué experiencias existen en otros países? y conozca los avances internacionales en la gestión del caudal ambiental.
+    p.mb-4(data-aos="fade-left") Explore el pódcast "¿Qué experiencias existen en otros países?" y conozca los avances internacionales en la gestión del caudal ambiental.
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
       .col-lg-12
